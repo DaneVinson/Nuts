@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Nuts</id>
+        <version>1.0.0</version>
+        <authors>Dane.Vinson</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Nuts, a test application for Squirrel.</description>
+    </metadata>
+    <files>
+        <file src="\Nuts\bin\Debug\DeltaCompressionDotNet.dll" target="lib\net45\DeltaCompressionDotNet.dll" />
+        <file src="\Nuts\bin\Debug\DeltaCompressionDotNet.MsDelta.dll" target="lib\net45\DeltaCompressionDotNet.MsDelta.dll" />
+        <file src="\Nuts\bin\Debug\DeltaCompressionDotNet.PatchApi.dll" target="lib\net45\DeltaCompressionDotNet.PatchApi.dll" />
+        <file src="\Nuts\bin\Debug\ICSharpCode.SharpZipLib.dll" target="lib\net45\ICSharpCode.SharpZipLib.dll" />
+        <file src="\Nuts\bin\Debug\log4net.dll" target="lib\net45\log4net.dll" />
+        <file src="\Nuts\bin\Debug\Newtonsoft.Json.dll" target="lib\net45\Newtonsoft.Json.dll" />
+        <file src="\Nuts\bin\Debug\Splat.dll" target="lib\net45\Splat.dll" />
+        <file src="\Nuts\bin\Debug\Squirrel.dll" target="lib\net45\Squirrel.dll" />
+        <file src="\Nuts\bin\Debug\Nuts.exe" target="lib\net45\Nuts.exe" />
+        <file src="\Nuts\bin\Debug\Nuts.exe.config" target="lib\net45\Nuts.exe.config" />
+        <file src="\Nut.Acorn\bin\Debug\Nut.Acorn.dll" target="lib\net45\Nut.Acorn.dll" />
+        <file src="\Nut.Walnut\bin\Debug\Nut.Walnut.dll" target="lib\net45\Nut.Walnut.dll" />
+    </files>
+</package>
