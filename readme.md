@@ -14,7 +14,7 @@ Hosting Squirrel deployments across the web is fairly simple but there are a cou
 
 While Squirrel leverages NuGet heavily, your generated Squirrel deployments (`.nupkg` and `RELEASES` files) are not themselves NuGet packages so don't try exposing them through a NuGet feed. Simply host Squirrel deployment files exactly as you would any other web resource and set the `PackageUrl` app setting with the URL of their root location.
 
-Ensure your web server has following two necessary MIME type mappings (example from `web.config`). The first maps `.nupkg` files to zip. The second maps files without extension to plain text. The second mapping is required to expose the Squirrel generated file `RELEASES` to reads from a client.
+Ensure your web server has following two necessary MIME type mappings (example illustrates setting in web.config). The first maps `.nupkg` files to zip. The second maps files without extension to plain text. The second mapping is required to expose the Squirrel generated file `RELEASES` to reads from a client.
 
     <system.webServer>
         <staticContent>
