@@ -8,6 +8,7 @@ The intent of Nuts is to act as a reference application for the exploration of d
 1. Open Visual Studio Package Manager Console and enter `squirrel -releasify {path to .nupkg}`
 1. The `releasify` command will generate a `Releases` sub-folder under your solution folder. That folder will contain one or more `.nupkg` files, `setup.exe` and a file named `RELEASES`. Copy `.nupkg` files and `RELEASES` the location specified by the `PackageUrl` app setting.
 1. Run any copy of `setup.exe` to install Nuts.
+
 ## Web Hosting ##
 Hosting Squirrel deployments across the web is fairly simple but there are a couple of gotchas to attend to. 
 
